@@ -1,0 +1,9 @@
+Notes from Fred
+- segment samples for seizure and non-seizure
+- only analyze segments with total voter agreement
+- make subsegments to increase the number of samples for seizures
+- drop participants with 0 seizures
+- next step is preprocessing the eeg signals - will be covered in the next lecture
+- first try feature extraction and classic ml classifiers (enough for the scope of the project)
+- try applying classifiers / ideas from harvard kaggle comp (advanced)
+- discover the dataset further
