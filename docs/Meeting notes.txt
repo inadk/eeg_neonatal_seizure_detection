@@ -7,3 +7,12 @@ Notes from Fred
 - first try feature extraction and classic ml classifiers (enough for the scope of the project)
 - try applying classifiers / ideas from harvard kaggle comp (advanced)
 - discover the dataset further
+
+Ask Fred whats next?
+
+Next steps
+- Preprocessing
+- EDF to npy
+- npy to segments
+- feauter extraction
+- model selection
