@@ -1,0 +1,23 @@
+mean , sd, variance, skewness (symetry of datapoints), entropy (randomness in the signal) , 
+rms value (magnitude of continous quanitity), minimum and maximum value of each channel, 
+energy, median absolute deviation, interquartile range, semi quartile range, kurtosis (tailedness of distribution) 
+
+review paper: https://doi.org/10.1007/s10772-021-09855-7 (classic ML paper, not a lot of citations)
+
+review paper: 10.1088/1741-2552/ab0ab5 (heavily cited)
+- seizure detection most effective using CNN 
+- need spectograms of the eeg for a CNN
+CNN: https://doi.org/10.1016/j.eswa.2018.04.021
+
+preprocessing discussed: 
+- review states that for seizure detection we need to use signal values as opposed to calculated features 
+- feed raw signal values into the NN
+
+review paper: 
+- proposes that the features extracted heavily impact the performance of the classifier 
+1. time domain features - mean var, mode, median, skewness, kurtosis, min and max values,  
+rms, energy, total vertical length of the line, different kinds of entropy (perfumation, fuzzy and weighted permutation)
+2. freq domain - energy for some specified freq ranges, intensity weighted mean frequency, intensity weighted bandwidth,
+specral edge frequency, spectral entropy,
+
+
