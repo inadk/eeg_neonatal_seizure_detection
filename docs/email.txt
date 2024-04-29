@@ -1,0 +1,15 @@
+Hey Daniel,
+
+For EEG preprocessing, I recommend Makoto’s guide: https://sccn.ucsd.edu/wiki/Makoto's_preprocessing_pipeline
+In combination with the basics taught by the EEGLab developers: https://www.youtube.com/watch?v=gEk33jWB0MY&list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae
+You can of course replicate their steps in Python; it’s still nice though to understand the steps themselves.
+This is basically your change to practice for your thesis, so no worries if you accidently do a step wrong.
+
+For feature extraction, I do not have any specific recommendations since it depends on a lot of factors, hence some studies have a research question comparing multiple feature extractions techniques (which you can also do if you want).
+In general, you either find techniques you can use by reading research papers that performed the same or a similar task e.g. Seizure / Harmful Brain Activity classification. Or if those papers are not enough, you can focus on the technical aspects of some feature extraction techniques e.g. if a feature extraction technique works great on other signal / time series data because they do something mathematical or unique, you can argue that it might also work great on EEG signals and thus be the first researcher to do this. Such techniques are of course hard to find since most stuff has been applied to EEG already, so I recommend going with similar papers and using the techniques they used.
+
+I’ll provide more guidance on this once the practical project starts.
+
+Cheers,
+
+Fred
