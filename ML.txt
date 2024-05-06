@@ -6,7 +6,6 @@ Summary
 Class imbalance is not a problem in neonatal seizure detection, due to higher seizure to non-seizure ratio. Unlike it is a problem in adult seizure detection.
 workflow
 
-
 ---
 When training the SDA, it is noted that there is a preponderance of data in the non-seizure class compared to seizure class 
 (458796 non-seizure epochs vs 20373 seizure epochs [16]). 
@@ -15,4 +14,29 @@ However, this is not as significant a problem in neonatal SDAs, particularly SVM
 where seizures are more prevalent and the process of annotation is more concerned with false positives (seizures) than false negatives [19,27]. 
 ---
 
+Convolutional neural networks ensemble model for neonatal seizure detection
+https://www.sciencedirect.com/science/article/pii/S0165027021001321
 
+Summary
+Multiple annotators
+Train a model for each annotator
+Make ansamble
+
+---
+The dataset used for this study is annotated by three experts and as such three separate models are trained on individual annotations, 
+resulting in average accuracies (ACC) of 95.6 %, 94.8 % and 90.1 % respectively, 
+and average area under the receiver operating characteristic curve (AUC) of 99.2 %, 98.4 % and 96.7 % respectively. 
+The testing was done using 10-cross fold validation, 
+so that the performance can be an accurate representation of the architectures classification capability in a clinical setting. 
+After training/testing of the three individual models, a final ensemble model is made consisting of the three models. 
+The ensemble model gives an average ACC and AUC of 96.3 % and 99.3 % respectively.
+---
+
+Classify epileptic EEG signals using weighted complex networks based community structure detection 
+https://www.sciencedirect.com/science/article/pii/S0957417417305523
+
+Summary
+(Highest accuracy model)
+The 12 features of {median, maximum, minimum, mean, mode, range, first quartile, second quartile, standard deviation, variation, skewness, kurtosis}
+are considered as the key features to represent EEG data in this study.
+6 seconds segments 32 feature clusters per segment
