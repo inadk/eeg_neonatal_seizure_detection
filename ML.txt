@@ -1,0 +1,18 @@
+Validating an SVM-based neonatal seizure detection algorithm for generalizability, non-inferiority and clinical efficacy
+https://www.sciencedirect.com/science/article/pii/S0010482522001913
+(authored by a creator of the neonatal seizure dataset and contains analysis of that dataset)
+
+Summary
+Class imbalance is not a problem in neonatal seizure detection, due to higher seizure to non-seizure ratio. Unlike it is a problem in adult seizure detection.
+workflow
+
+
+---
+When training the SDA, it is noted that there is a preponderance of data in the non-seizure class compared to seizure class 
+(458796 non-seizure epochs vs 20373 seizure epochs [16]). 
+Class imbalance in the databases has been shown to be a problem when constructing adult SDAs [26].
+However, this is not as significant a problem in neonatal SDAs, particularly SVM based methods,
+where seizures are more prevalent and the process of annotation is more concerned with false positives (seizures) than false negatives [19,27]. 
+---
+
+
